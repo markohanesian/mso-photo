@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import LinkedCameraIcon from '@mui/icons-material/LinkedCamera';
 
 const pages = ['Gallery', 'Pricing', 'About', 'Blog', 'Contact'];
 
@@ -28,23 +28,24 @@ function ResponsiveAppBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <LinkedCameraIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          {/* mso photo "icon" */}
           <Typography
-            variant="h6"
+            variant="h1"
             noWrap
             component="a"
             href="/"
             sx={{
               mr: 2,
+              fontSize: '1rem',
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontFamily: 'sans-serif',
+              fontWeight: 100,
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Mark Ohanesian Photography
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -83,7 +84,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <LinkedCameraIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -94,13 +95,13 @@ function ResponsiveAppBar() {
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
-              fontWeight: 700,
+              fontWeight: 400,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Mark Ohanesian Photography
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
