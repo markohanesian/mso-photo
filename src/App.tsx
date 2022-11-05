@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import AccountMenu from "../src/components/nav/NavBar";
 
 function App() {
   return (
-   <h1>MSO PHOTO</h1>
+    <>
+        <AccountMenu />
+    </>
   );
 }
 
