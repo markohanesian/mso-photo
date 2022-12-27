@@ -36,27 +36,27 @@ const itemData = [
     title: 'cologne',
   },
   {
-    img: 'necklace-stone.jpg',
+    img: '/images/necklace-stone.jpg',
     title: 'necklace on stone',
   },
   {
-    img: 'black-ring.jpg',
+    img: '/images/ring1.jpg',
     title: 'black ring',
   },
   {
-    img: 'Karine-1.jpg',
+    img: '/images/Karine-1.jpg',
     title: 'wine bottle',
   },
   {
-    img: 'heart-necklace.jpg',
+    img: '/images/heart-necklace.jpg',
     title: 'heart necklace',
   },
   {
-    img: 'Sweets Flatlay-1.jpg',
+    img: '/images/Sweets Flatlay-1.jpg',
     title: 'Sweets flatlay',
   },
   {
-    img: 'leopard-shoes.jpg',
+    img: '/images/leopard-shoes.jpg',
     title: 'Leopard shoes on pink',
   },
   {
