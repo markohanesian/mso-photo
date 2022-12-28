@@ -30,8 +30,9 @@ export default function About() {
                     having to say a word.
                 </Typography>
 
-                <MasonryImageList />
             </Container>
+            <MasonryImageList />
+
         </>
     );
 }
