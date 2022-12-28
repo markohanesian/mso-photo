@@ -33,13 +33,13 @@ function Navbar() {
           <Link to="/" className="NavItem">
             Home
           </Link>
-          <Link to="/about" className="NavItem">
+          <Link to="/About" className="NavItem">
             About
           </Link>
-          {/* <Link to="/contact" className={classes.link}>
+          <Link to="/Contact" className="NavItem">
               Contact
             </Link>
-            <Link to="/faq" className={classes.link}>
+            {/* <Link to="/faq" className={classes.link}>
               FAQ
             </Link> */}
         </div>
