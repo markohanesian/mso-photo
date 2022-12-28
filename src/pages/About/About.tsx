@@ -8,11 +8,17 @@ export default function About() {
     return (
         <>
             <NavBar />
-            <Container maxWidth="sm">
-                <Typography variant="h1" gutterBottom>
+            <Container maxWidth="lg" sx={{
+                padding: "0  0 3rem 0"
+            }}>
+                <Typography variant="h1" sx={{
+                    margin: "1rem 0 3rem 0"
+                }}>
                     About
                 </Typography>
-                <Typography variant="body1" gutterBottom>
+                <Typography variant="body1" sx={{
+                    marginBottom: "3rem"
+                }}>
                     Mark Ohanesian Photography is a commercial studio located in
                     Sacramento, CA that specializes in commercial photography (photography
                     for businesses) with over a decade of experience. We use professional
