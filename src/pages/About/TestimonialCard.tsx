@@ -25,6 +25,7 @@ export default function TestimonialCard() {
                 <CardMedia
                     component="img"
                     height="345"
+                    width='100%'
                     image='/images/allen-headshot.jpg'
                     alt="Allen Headshot Photo"
                 />
@@ -47,6 +48,7 @@ export default function TestimonialCard() {
                 <CardMedia
                     component="img"
                     height="345"
+                    width='100%'
                     image='/images/avo-jen-engagement.jpg'
                     alt="Avo Couple Engagement Photo"
                 />
@@ -59,22 +61,23 @@ export default function TestimonialCard() {
             <Card sx={{ maxWidth: 345 }}>
                 <CardHeader
                     avatar={
-                        <Avatar sx={{ bgcolor: red[500] }} aria-label="avatar">
-                            A
+                        <Avatar sx={{ bgcolor: 'green' }} aria-label="avatar">
+                            N
                         </Avatar>
                     }
-                    title="Allen"
-                    subheader="Professional headshot Session Client"
+                    title="Nick"
+                    subheader="Product Photography Client"
                 />
                 <CardMedia
                     component="img"
                     height="345"
-                    image='/images/allen-headshot.jpg'
-                    alt="Allen Headshot"
+                    width='100%'
+                    image='/images/Karine-1.jpg'
+                    alt="Wine Bottle Picture"
                 />
                 <CardContent>
                     <Typography variant="body2" color="text.secondary" sx={{ quotes: 'initial', fontStyle: 'italic' }}>
-                        "I needed some headshots for my business and Mark did a great job. He was easy to work with, really friendly, and had great ideas on how to pose (even though I wasn't sure what to do). I appreciate his attention to detail and going above and beyond to create great pictures."
+                        "Mark took amazing quality images of our products that are perfect for all aspects of our marketing and advertising"
                     </Typography>
                 </CardContent>
             </Card></Stack>
