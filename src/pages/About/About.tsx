@@ -10,8 +10,7 @@ export default function About() {
         <>
             <NavBar />
             <Container maxWidth="lg" sx={{
-
-                padding: "0  0 3rem 0"
+                padding: "3rem"
             }}>
                 <Typography variant="h1" sx={{
                     margin: "1rem 0 3rem 0"
@@ -42,7 +41,7 @@ export default function About() {
                 <Typography variant="h2" sx={{
                     margin: "1rem 0 "
                 }}>Testimonials</Typography>
-                    <TestimonialCard />
+                <TestimonialCard />
             </Container>
             <MasonryImageList />
         </>
