@@ -20,7 +20,7 @@ export default function About() {
                     About
                 </Typography>
                 <Typography variant="body1" sx={{
-                    marginBottom: "3rem"
+                    marginBottom: "1rem"
                 }}>
                     Mark Ohanesian Photography is a commercial studio located in
                     Sacramento, CA that specializes in commercial photography (photography
@@ -29,7 +29,9 @@ export default function About() {
                     any flaws in post-processing, in order to capture the highest quality
                     imagery.
                 </Typography>
-                <Typography variant="body1" gutterBottom>
+                <Typography variant="body1" gutterBottom sx={{
+                    marginBottom: "3rem"
+                }}>
 
                     The popularity of online consumerism means that your personal
                     brand/company image starts with an image. People want to see
@@ -38,6 +40,9 @@ export default function About() {
                     beautiful imagery so you can SHOW the world how great it is without
                     having to say a word.
                 </Typography>
+                <Typography variant="h2" sx={{
+                    margin: "1rem 0 "
+                }}>Testimonials</Typography>
                 <Stack direction='row'>
                     <TestimonialCard />
                 </Stack>
