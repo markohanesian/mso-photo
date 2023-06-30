@@ -1,7 +1,6 @@
 import * as React from "react";
 import NavBar from "../../components/nav/NavBar";
 import Container from "@mui/material/Container";
-import { Stack } from "@mui/material";
 import MasonryImageList from "../../components/imageList/ImageList";
 import Typography from "@mui/material/Typography";
 import TestimonialCard from '../About/TestimonialCard';
