@@ -23,13 +23,15 @@ function Navbar() {
           alt="logo"
           src="MSOP-logo.png"
         />
-        <Typography variant="h4" sx={{
+        <Typography variant="subtitle1" sx={{
           m: "0 3rem 0 0"
         }}>
           Mark Ohanesian Photography
         </Typography>
 
-        <div >
+        <div style={{
+          marginLeft: '40px'
+        }}>
           <Link to="/" className="NavItem">
             Home
           </Link>
