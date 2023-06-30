@@ -4,6 +4,7 @@ import NavBar from "../../components/nav/NavBar";
 //     Card, CardContent, Grid, TextField, Button, Typography
 // } from "@mui/material";
 import { Container, Typography, Button } from "@mui/material";
+import SocialButtonsGroup from "../../components/social buttons group/social-buttons-group";
 
 export default function Contact() {
   // const sendEmail = () => {
@@ -26,19 +27,20 @@ export default function Contact() {
           }}
         >
           Contact
-              </Typography>
-              <Button
-   variant="contained"
-   size="large"
-   color="primary"
-   target="_top"
-   rel="noopener noreferrer"
-   href={`mailto:hello@markohanesian.com`}
->
-   <Typography variant="button" style={{ fontSize: '0.69rem' }}>
-      Email
-   </Typography>
-</Button>
+        </Typography>
+        <Button
+          variant="contained"
+          size="large"
+          color="primary"
+          target="_top"
+          rel="noopener noreferrer"
+          href={`mailto:hello@markohanesian.com`}
+        >
+          <Typography variant="button" style={{ fontSize: "0.69rem" }}>
+            Email
+          </Typography>
+        </Button>
+        <SocialButtonsGroup />
       </Container>
       {/* <Grid>
                 <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
