@@ -1,0 +1,28 @@
+import React from "react";
+import { Container, Typography, Stack, Button } from "@mui/material";
+import { Link } from "react-router-dom";
+
+export default function Hero() {
+  return (
+    <Container
+      maxWidth="md"
+      sx={{
+        padding: "3rem",
+      }}
+    >
+      <Stack spacing={3} width={700}>
+        <Typography variant="h3">Capturing Your Best Light</Typography>
+        <Typography variant="body1">
+          {" "}
+          Set your brand apart with beautiful imagery so you can SHOW the world
+          how great it is without having to say a word.{" "}
+        </Typography>
+        <Button variant="contained" style={{ backgroundColor: "#070b4a", width: '200px'}}> 
+          <Link to="/Contact" style={{ color: "white", outline: 'none', textDecoration: 'none', width: '100%'}}>
+            get a quote
+          </Link>
+        </Button>
+      </Stack>
+    </Container>
+  );
+}
