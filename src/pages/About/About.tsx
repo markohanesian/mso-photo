@@ -1,14 +1,17 @@
 import * as React from "react";
 import NavBar from "../../components/nav/NavBar";
 import Container from "@mui/material/Container";
+import { Stack } from "@mui/material";
 import MasonryImageList from "../../components/imageList/ImageList";
 import Typography from "@mui/material/Typography";
+import TestimonialCard from '../About/TestimonialCard';
 
 export default function About() {
     return (
         <>
             <NavBar />
             <Container maxWidth="lg" sx={{
+
                 padding: "0  0 3rem 0"
             }}>
                 <Typography variant="h1" sx={{
@@ -35,10 +38,11 @@ export default function About() {
                     beautiful imagery so you can SHOW the world how great it is without
                     having to say a word.
                 </Typography>
-
+                <Stack direction='row'>
+                    <TestimonialCard />
+                </Stack>
             </Container>
             <MasonryImageList />
-
         </>
     );
 }
