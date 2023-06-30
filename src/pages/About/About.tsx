@@ -43,9 +43,7 @@ export default function About() {
                 <Typography variant="h2" sx={{
                     margin: "1rem 0 "
                 }}>Testimonials</Typography>
-                <Stack direction='row'>
                     <TestimonialCard />
-                </Stack>
             </Container>
             <MasonryImageList />
         </>
