@@ -11,10 +11,10 @@ function Navbar() {
 
 
   return (
-    <AppBar sx={{backgroundColor: "#070b4a"}} position="static">
+    <AppBar sx={{ backgroundColor: "#070b4a" }} position="static">
       <CssBaseline />
       <Toolbar>
-      <Box
+        <Box
           component="img"
           sx={{
             height: 48,
@@ -24,8 +24,8 @@ function Navbar() {
           src="MSOP-logo.png"
         />
         <Typography variant="h4" sx={{
-            m: "0 3rem 0 0"
-          }}>
+          m: "0 3rem 0 0"
+        }}>
           Mark Ohanesian Photography
         </Typography>
 
@@ -36,10 +36,13 @@ function Navbar() {
           <Link to="/About" className="NavItem">
             About
           </Link>
+          <Link to="/Services" className="NavItem">
+            Services
+          </Link>
           <Link to="/Contact" className="NavItem">
-              Contact
-            </Link>
-            {/* <Link to="/faq" className={classes.link}>
+            Contact
+          </Link>
+          {/* <Link to="/faq" className={classes.link}>
               FAQ
             </Link> */}
         </div>
