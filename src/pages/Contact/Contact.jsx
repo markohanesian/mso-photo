@@ -15,7 +15,7 @@ export default function Contact() {
     <>
       <NavBar />
       <Container
-        maxWidth="lg"
+        maxWidth="sm"
         sx={{
           padding: "3rem",
         }}
@@ -28,15 +28,39 @@ export default function Contact() {
         >
           Contact
         </Typography>
+        <Typography
+          variant="body1"
+          gutterBottom
+          sx={{
+            marginBottom: "3rem",
+          }}
+        >
+          Please send an email with some information about the type of service you would like to book and we'll get back to you as
+          soon as possible.
+          <ul>
+            <li>Name:</li>
+            <li>Email:</li>
+            <li>Phone Number:</li>
+            <li>
+              Project Description: Please provide a brief description of your
+              project, including the type of photography you're interested in,
+              the date and time of your event, and any other relevant details.
+            </li>
+            <li>
+              Other Information: Please feel free to include any other
+              information that you think would be helpful, such as your website
+              or social media handles.
+            </li>
+          </ul>
+        </Typography>
         <Button
           variant="contained"
           size="large"
           color="primary"
-          target="_top"
-          rel="noopener noreferrer"
           href={`mailto:hello@markohanesian.com`}
+          style={{ backgroundColor: "#070b4a", width: '200px'}}
         >
-          <Typography variant="button" style={{ fontSize: "0.69rem" }}>
+          <Typography variant="button">
             Email
           </Typography>
         </Button>
