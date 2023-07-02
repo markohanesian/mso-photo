@@ -23,10 +23,8 @@ function Navbar() {
           alt="logo"
           src="MSOP-logo.png"
         />
-        <Typography variant="subtitle1" sx={{
-          m: "0 3rem 0 0"
-        }}>
-          Mark Ohanesian Photography
+        <Typography variant="body1" >
+          MSO Photography
         </Typography>
 
         <div style={{
