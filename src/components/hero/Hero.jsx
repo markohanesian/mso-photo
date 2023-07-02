@@ -10,7 +10,7 @@ export default function Hero() {
         padding: "3rem",
       }}
     >
-      <Stack spacing={3} width={700}>
+      <Stack spacing={3} maxWidth={700}>
         <Typography variant="h3">Capturing Your Best Light</Typography>
         <Typography variant="body1">
           {" "}
