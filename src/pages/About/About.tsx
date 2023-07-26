@@ -38,7 +38,7 @@ export default function About() {
                     having to say a word.
                 </Typography>
                 <Typography variant="h2" sx={{
-                    margin: "1rem 0 "
+                    margin: "1rem 0 ", fontSize: "24px"
                 }}>Testimonials</Typography>
                 <TestimonialCard />
             </Container>
