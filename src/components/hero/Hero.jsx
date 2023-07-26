@@ -15,7 +15,7 @@ export default function Hero() {
         <Typography variant="body1">
           {" "}
           Set your brand apart with beautiful imagery so you can SHOW the world
-          how great it is without having to say a word.{" "}
+          how great it is without having to say a word.
         </Typography>
         <Button variant="contained" style={{ backgroundColor: "#070b4a", width: '200px'}}> 
           <Link to="/Contact" style={{ color: "white", outline: 'none', textDecoration: 'none', width: '100%'}}>
