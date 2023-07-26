@@ -24,7 +24,7 @@ function Navbar() {
           src="MSOP-logo.png"
         />
         <Typography variant="body1" >
-          MSO Photography
+          MSO Photo
         </Typography>
 
         <div style={{

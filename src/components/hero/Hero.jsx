@@ -11,7 +11,7 @@ export default function Hero() {
       }}
     >
       <Stack spacing={3} maxWidth={700}>
-        <Typography variant="h3">Capturing Your Best Light</Typography>
+        <Typography variant="h4">Capturing Your Best Light</Typography>
         <Typography variant="body1">
           {" "}
           Set your brand apart with beautiful imagery so you can SHOW the world

@@ -35,7 +35,7 @@ export default function Services() {
                 padding: "3rem"
             }}>
                 <Typography variant="h1" sx={{
-                    margin: "1rem 0 3rem 0"
+                    margin: "1rem 0 3rem 0", fontSize: '30px'
                 }}>
                     Services
                 </Typography>

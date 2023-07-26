@@ -23,7 +23,7 @@ export default function Contact() {
         <Typography
           variant="h1"
           sx={{
-            margin: "1rem 0 3rem 0",
+            margin: "1rem 0 3rem 0", fontSize: '30px'
           }}
         >
           Contact

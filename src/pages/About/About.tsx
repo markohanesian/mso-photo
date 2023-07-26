@@ -13,18 +13,17 @@ export default function About() {
                 padding: "3rem"
             }}>
                 <Typography variant="h1" sx={{
-                    margin: "1rem 0 3rem 0"
+                    margin: "1rem 0 3rem 0", fontSize: '30px'
                 }}>
                     About
                 </Typography>
                 <Typography variant="body1" sx={{
                     marginBottom: "1rem"
                 }}>
-                    Mark Ohanesian Photography is a commercial studio located in
-                    Sacramento, CA that specializes in commercial photography (photography
-                    for businesses) with over a decade of experience. We use professional
-                    quality cameras, lenses, and lighting equipment, as well as retouch
-                    any flaws in post-processing, in order to capture the highest quality
+                    Mark Ohanesian is a digital photographer that specializes in product, portrait, and branding photography,
+                    with over a decade of experience. Mark uses professional
+                    quality cameras, lenses, and lighting equipment, and offers professional retouching
+                    and digital enhancement to in order to capture and enhance the highest quality
                     imagery.
                 </Typography>
                 <Typography variant="body1" gutterBottom sx={{
