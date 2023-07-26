@@ -11,7 +11,8 @@ import { Stack } from '@mui/material';
 export default function TestimonialCard() {
 
     return (
-        <Stack direction='row' spacing={3}>
+        <Stack   direction={{ xs: 'column', sm: 'row' }}
+        spacing={3}>
             <Card sx={{ maxWidth: 345 }}>
                 <CardHeader
                     avatar={
