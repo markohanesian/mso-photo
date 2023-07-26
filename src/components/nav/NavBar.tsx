@@ -14,15 +14,17 @@ function Navbar() {
     <AppBar sx={{ backgroundColor: "#070b4a" }} position="static">
       <CssBaseline />
       <Toolbar>
-        <Box
-          component="img"
-          sx={{
-            height: 48,
-            m: "0 1rem 0 0"
-          }}
-          alt="logo"
-          src="MSOP-logo.png"
-        />
+        <Link to="/" aria-label="Home-button" role="home">
+          <Box
+            component="img"
+            sx={{
+              height: 48,
+              m: "0 1rem 0 0"
+            }}
+            alt="logo"
+            src="MSOP-logo.png"
+          />
+        </Link>
         <Typography variant="body1" >
           MSO Photo
         </Typography>
