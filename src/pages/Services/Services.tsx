@@ -3,9 +3,9 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Navbar from '../../components/nav/NavBar';
 import MasonryImageList from '../../components/imageList/ImageList';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Box from '@mui/material/Box';
 
 function createServiceItem(
     title: string,
@@ -16,11 +16,11 @@ function createServiceItem(
 }
 
 const serviceItems = [
-    createServiceItem('Headshots', 'Shot in studio with professional lighting. Group sessions for entire company/team discounted depending on size', 'Starting at $250 for 3 photos for one individual ($75 each additional)'),
-    createServiceItem('Branding', 'Standard Small Business Package: 20 photos for marketing your brand delivered month to month so you always have new content ', 'starting at $800'),
-    createServiceItem('Products', 'Standard photos on white background for ecommerce/online, oversized items, Styled product photos (photos that show brand colors, product ingredients, use props, etc) - subject to hourly rate (message for details) ', 'starting at $75/photo'),
-    createServiceItem('Events', 'Parties, corporate, etc - can add second photographer or videographer for additional cost', 'Starting at $600 for 2 hour photoshoot'),
-    createServiceItem('Weddings', 'Creative and candid wedding photos that tell a stunning story of your dream day. Two photographers will be on location to capture multiple angles of all important moments', 'Starting at $5000 for full-day rate (8 hours)'),
+    createServiceItem('Headshots', 'Shot in studio with professional lighting. Group sessions for entire company/team, discounted depending on size', '$250 for 3 photos'),
+    createServiceItem('Branding', 'Standard Small Business Package: 20 photos for marketing your brand delivered month to month so you always have new content', '$800'),
+    createServiceItem('Products', 'Standard photos on white background for ecommerce/online, oversized items, Styled product photos (photos that show brand colors, product ingredients, use props, etc) - subject to hourly rate (message for details)', '$75/photo'),
+    createServiceItem('Events', 'Parties, corporate, etc - can add a second photographer or videographer for an additional cost', '$600 for a 2-hour photoshoot'),
+    createServiceItem('Weddings', 'Creative and candid wedding photos that tell a stunning story of your dream day. Two photographers will be on location to capture multiple angles of all important moments', '$5000 for a full-day rate (8 hours)'),
 ];
 
 export default function Services() {
@@ -35,27 +35,26 @@ export default function Services() {
                 }}>
                     Services
                 </Typography>
-                <List>
+                <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
                     {serviceItems.map((service, index) => (
-                        <ListItem key={index}>
-                            <ListItemText
-                                primary={service.title}
-                                secondary={
-                                    <>
-                                        <Typography variant="body2" component="span">
-                                            {service.description}
-                                        </Typography>
-                                        <Typography variant="body2" component="span">
-                                            {service.price}
-                                        </Typography>
-                                    </>
-                                }
-                            />
-                        </ListItem>
+                        <Card key={index} sx={{ maxWidth: '700px', width: '100%', marginBottom: '1rem' }}>
+                            <CardContent sx={{ backgroundColor: '#070b4a', color: 'white', position: 'relative' }}>
+                                <Box sx={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}>
+                                    <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+                                        {service.price}
+                                    </Typography>
+                                </Box>
+                                <Typography variant="h6" component="div" sx={{ fontSize: 16, marginBottom: '0.5rem' }}>
+                                    {service.title}
+                                </Typography>
+                                <Typography variant="body2">
+                                    {service.description}
+                                </Typography>
+                            </CardContent>
+                        </Card>
                     ))}
-                </List>
+                </Box>
             </Container>
-
             <MasonryImageList />
         </>
     );
