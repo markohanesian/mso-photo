@@ -24,6 +24,10 @@ export default function MasonryImageList() {
 
 const itemData = [
   {
+    img: '/images/Claire-headshot.jpg',
+    title: 'Claire-headshot',
+  },
+  {
     img: '/images/earring1.jpg',
     title: 'earring',
   },
@@ -32,12 +36,20 @@ const itemData = [
     title: 'shirts',
   },
   {
+    img: '/images/allen-headshot.jpg',
+    title: 'allen-headshot',
+  },
+  {
     img: '/images/cologne.png',
     title: 'cologne',
   },
   {
     img: '/images/necklace-stone.jpg',
     title: 'necklace on stone',
+  },
+  {
+    img: '/images/sarmen-headshot.png',
+    title: 'sarmen-headshot',
   },
   {
     img: '/images/ring1.jpg',
