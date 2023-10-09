@@ -16,11 +16,11 @@ function createServiceItem(
 }
 
 const serviceItems = [
-    createServiceItem('Headshots', 'Shot in studio with professional lighting. Group sessions for entire company/team, discounted depending on size', '$250 for 3 photos'),
+    createServiceItem('Headshots', 'Shot in studio with professional lighting. Group sessions for entire company/team, discounted depending on size, \nPricing is for 3 edited photos from the session', '$250'),
     createServiceItem('Branding', 'Standard Small Business Package: 20 photos for marketing your brand delivered month to month so you always have new content', '$800'),
     createServiceItem('Products', 'Standard photos on white background for ecommerce/online, oversized items, Styled product photos (photos that show brand colors, product ingredients, use props, etc) - subject to hourly rate (message for details)', '$75/photo'),
-    createServiceItem('Events', 'Parties, corporate, etc - can add a second photographer or videographer for an additional cost', '$600 for a 2-hour photoshoot'),
-    createServiceItem('Weddings', 'Creative and candid wedding photos that tell a stunning story of your dream day. Two photographers will be on location to capture multiple angles of all important moments', '$5000 for a full-day rate (8 hours)'),
+    createServiceItem('Events', 'Parties, corporate, etc - can add a second photographer or videographer for an additional cost \npricing is for a 2-hour photoshoot', '$600'),
+    createServiceItem('Weddings', 'Creative and candid wedding photos that tell a stunning story of your dream day. Two photographers will be on location to capture multiple angles of all important moments \n \n Pricing is for a full-day rate (8 hours)', '$5000'),
 ];
 
 export default function Services() {
