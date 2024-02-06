@@ -18,7 +18,7 @@ function createServiceItem(
 const serviceItems = [
   createServiceItem(
     "Headshots",
-    "Shot in studio with professional lighting \nRetouched to naturally remove flaws  \nGroup discounts available  \n \nPricing is for 3 edited photos from the session",
+    "Shot with professional lighting \nRetouched to naturally remove flaws  \nGroup discounts available  \n \nPricing is for 3 edited photos from the session",
     "$250"
   ),
   createServiceItem(
