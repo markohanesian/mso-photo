@@ -18,8 +18,8 @@ export default function Hero() {
           how great it is without having to say a word.
         </Typography>
         <Button variant="contained" style={{ backgroundColor: "#070b4a", width: '200px'}}> 
-          <Link to="/Contact" style={{ color: "white", outline: 'none', textDecoration: 'none', width: '100%'}}>
-            get a quote
+          <Link to="/Services" style={{ color: "white", outline: 'none', textDecoration: 'none', width: '100%'}}>
+            book your session
           </Link>
         </Button>
       </Stack>
