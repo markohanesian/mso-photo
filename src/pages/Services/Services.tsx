@@ -28,13 +28,13 @@ const serviceItems = [
     "Events",
     "Parties, corporate, etc - can add a second photographer or videographer for an additional cost  \n \npricing is for a 2-hour photoshoot",
     "$600",
-    { url: "https://calendly.com/mso872/event-session", text: "book" }
+    { url: "mailto:hello@markohanesian.com", text: "contact" }
   ),
   createServiceItem(
     "Google Business Listing",
     "Standard Small Business Package: 20-30 photos for your Google business listing",
     "$750",
-    { url: "https://calendly.com/mso872/branding-consultation", text: "book" }
+    { url: "mailto:hello@markohanesian.com", text: "contact" }
   ),
   // createServiceItem(
   //   "Products",
