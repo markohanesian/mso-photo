@@ -31,9 +31,9 @@ const serviceItems = [
     { url: "https://calendly.com/mso872/event-session", text: "book" }
   ),
   createServiceItem(
-    "Branding",
-    "Standard Small Business Package: 20 photos for marketing your brand delivered month to month so you always have new content",
-    "$800",
+    "Google Business Listing",
+    "Standard Small Business Package: 20-30 photos for your Google business listing",
+    "$750",
     { url: "https://calendly.com/mso872/branding-consultation", text: "book" }
   ),
   // createServiceItem(
