@@ -31,9 +31,9 @@ const serviceItems = [
     { url: "mailto:hello@markohanesian.com", text: "contact" }
   ),
   createServiceItem(
-    "Google Business Listing",
-    "Standard Small Business Package: 20-30 photos for your Google business listing",
-    "$750",
+    "Google Business Listing Pro",
+    "40 professional photos of your business inside and out (Google recommends 19 so you get over double the recommended to choose from)  \n \nMake your Google business listing stand out on Maps  \n \nQuick and easy, all photos done in 1-2 hours ",
+    "$550",
     { url: "mailto:hello@markohanesian.com", text: "contact" }
   ),
   // createServiceItem(
